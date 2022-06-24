@@ -1,4 +1,5 @@
 FROM gitpod/workspace-base:latest
+FROM gitpod/workspace-postgres
 
 RUN echo "CI version from base"
 
